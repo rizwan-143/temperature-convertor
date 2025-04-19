@@ -12,13 +12,13 @@ let dropdownBtn = document.getElementById("dropdownBtn");
     let li = document.createElement("li");
     let tempList = document.getElementById("tempList");
     let result = (userInput * 9/5) + 32;
-    li.textContent = `The ${userInput} calsius is equal to ${result} fahrenheit `
+    li.textContent = `The ${userInput} celsius is equal to ${result} fahrenheit `
     tempList.appendChild(li);
    }else{
     let tempList = document.getElementById("tempList");
     let li = document.createElement("li");
-    result = (userInput - 32) * 5/9;
-    li.textContent = `The ${userInput} fahrenheit is equal to ${result} calsius `
+     let result = (userInput - 32) * 5/9;
+    li.textContent = `The ${userInput} fahrenheit is equal to ${result} celsius `
     tempList.appendChild(li);
    }
  })
