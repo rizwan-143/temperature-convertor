@@ -6,9 +6,9 @@ let dropdownBtn = document.getElementById("dropdownBtn");
  let convert = document.getElementById("convert");
  convert.addEventListener(`click` , function(){
      let userInput = document.getElementById("userInput").value;
-   if(userInput === ""){
+   if(userInput === "" ){
     alert('enter a number !')
-   }else if(dropdownBtn.textContent === "fahrenheit"){
+   }else if(dropdownBtn.textContent === "fahrenheit" ){
     let li = document.createElement("li");
     let tempList = document.getElementById("tempList");
     let result = (userInput * 9/5) + 32;
