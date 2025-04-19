@@ -14,11 +14,11 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-12  d-flex flex-column justify-content-center mt-5 gap-3">
+      <div class="col-sm-12 d-flex flex-column align-items-center justify-content-center mt-5 gap-3">
         <h3 class="text-uppercase fw-bold">temperature convertor</h3>
           <input class="rounded-pill p-2" type="text" placeholder="enter number" id="userInput">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button"
+          <button class="btn btn-secondary dropdown-toggle mt-2" type="button"
             data-bs-toggle="dropdown" id="dropdownBtn">
             select Temp
           </button>
@@ -27,7 +27,7 @@
             <li><a class="dropdown-item" href="#" onclick="selectUnit(`calsius`)">celsius</a></li>
           </ul>
         </div>
-        <div class="btn btn-secondary " id="convert">convert</div>
+        <div class="btn btn-secondary mt-2 " id="convert">convert</div>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@
   <div class="container mt-4">
     <div class="row">
       <div class="col-12 d-flex justify-content-center">
-        <ul id="tempList" class=" bg-light w-100 p-1 d-flex flex-column align-items-center list-unstyled">
+        <ul id="tempList" class=" bg-light p-1 d-flex flex-column align-items-center list-unstyled">
           <li class="fw-bold">Result</li>
         </ul>
       </div>
